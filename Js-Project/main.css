@@ -1,3 +1,13 @@
+.sec1{
+    width: 100%;
+    height: 500px;
+    background: rgb(232,77,167);
+    background: radial-gradient(circle, rgba(232,77,167,1) 0%,  #27005D 100%);
+    
+}
+
+
+
 .ic {
 
     display: flex;
@@ -9,16 +19,37 @@
 .features{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
-    
-
+    background-color: #27005D;
+    width: 100%;
+    height: 300px;
 }
 
 .card{
     align-items: center;
+    
+}
+
+.bb .icon i{
+    font-size: 40px;
+    color: #AED2FF;
+}
+
+
+
+
+.bb{
+    display: flex;
+    width: 320px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .abt{
+    color: #AED2FF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,4 +72,48 @@
 .oferr{
     width: 100%;
     height: 500px;
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.sec1 .im img{
+    width: 600px;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+    background-color: #27005D;
+    color: #E4F1FF;
+    
+}
+header nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+header nav ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: #E4F1FF;
+    text-decoration: none;
 }
